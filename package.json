@@ -1,0 +1,30 @@
+{
+  "name": "grunt-setup-dist-repos",
+  "version": "0.0.1",
+  "description": "Setup gh-pages and bower repos as sibling directories to this one.",
+  "main": [
+    "tasks/setup.js"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.dev.xero.com:gravity/xg-core.git"
+  },
+  "keywords": [
+    "grunt",
+    "bower",
+    "gh-pages"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "0.4.4"
+  },
+  "peerDependencies": {
+    "grunt": "0.4.4"
+  }
+}
