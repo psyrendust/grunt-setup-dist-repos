@@ -1,6 +1,6 @@
 {
   "name": "grunt-setup-dist-repos",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Setup gh-pages and bower repos as sibling directories to this one.",
   "main": [
     "tasks/setup.js"
