@@ -1,23 +1,30 @@
 {
   "name": "grunt-setup-dist-repos",
-  "version": "0.0.3",
-  "description": "Setup gh-pages and bower repos as sibling directories to this one.",
+  "version": "0.0.4",
+  "description": "Setup gh-pages and bower repos as sibling directories to the repo we are in.",
   "main": [
     "tasks/setup.js"
   ],
   "scripts": {},
+  "homepage": "https://github.com/psyrendust/grunt-setup-dist-repos",
+  "issues": "https://github.com/psyrendust/grunt-setup-dist-repos/issues",
   "repository": {
     "type": "git",
-    "url": "git@github.dev.xero.com:gravity/xg-core.git"
+    "url": "git@github.com:psyrendust/grunt-setup-dist-repos.git"
   },
   "keywords": [
     "grunt",
     "bower",
     "gh-pages"
   ],
-  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://psyrendust.mit-license.org/2014"
+    }
+  ],
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 0.8.0"
   },
   "dependencies": {
   },
